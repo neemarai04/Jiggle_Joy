@@ -1,0 +1,56 @@
+body{
+    padding:30px;
+    background:linear-gradient(to right, #f28fb3, #8ab8f8);
+}
+h1{
+    text-align:center;
+
+}
+#logout{
+    color:#ff347f;
+    background-color:#f28fb3;
+    padding:5px;
+    border-radius:5px;
+    font-size:1rem;
+    font-weight:bold;
+    border:solid;
+}
+#home{
+    color:#2772db;
+    background-color:#8ab8f8;
+    padding:5px;
+    border-radius:5px;
+    font-size:1rem;
+    font-weight:bold;
+    margin-top: 5px;
+    border:solid;
+}
+button:hover{
+    text-decoration: underline;
+    color:blue;
+}
+button, div{
+    margin-left:15%;
+    font-size:20px;
+    padding:10px;
+}
+div{
+    font-weight:400;
+    color:rgb(12,11,11);
+
+}
+span{
+    font-weight:600;
+    font-size:22px;
+    color:black;
+}
+.heading{
+font-size:40px;
+font-family: cursive;
+color: #ff347f;
+}
+.heading2{
+font-size:40px;
+font-family: "Cedarville Cursive", cursive;
+color: #2772db;
+}

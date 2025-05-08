@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    background: radial-gradient(circle at 8.3% 75.7%, rgb(209, 247, 241) 0%, rgb(249, 213, 213) 81%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo styles */
+.Logo {
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* Header styles */
+.header {
+    background-color: #d59bf6;
+    padding: 10px 20px;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: cursive;
+    color: #ff347f;
+}
+
+.heading2 {
+    font-size: 40px;
+    font-family: "Cedarville Cursive", cursive;
+    color: #2772db;
+}
+
+/* Navbar links */
+#home, #Account {
+    font-size: 18px;
+}
+
+#home:hover, #Account:hover {
+    transform: scale(1.2);
+    background-color: #ff347f;
+    border-radius: 10px;
+}
+
+/* Letter box styles */
+.letter {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+.letter:hover {
+    transform: scale(1.1);
+}
+
+/* Container for letters */
+.container {
+    margin-top: 1in; /* Adds a 1-inch space between the header and the letters */
+    padding: 0;
+}

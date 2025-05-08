@@ -1,0 +1,81 @@
+/* body{
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+} */
+.Logo{
+    width: 70px;
+    margin-right: 10px;
+}
+.header{
+    background-color:#d59bf6;
+}
+.heading{
+    font-size:40px;
+    font-family: cursive;
+    color: #ff347f;
+}
+.heading2{
+    font-size:40px;
+    font-family: "Cedarville Cursive", cursive;
+    color: #2772db;
+}
+#home{
+    font-size: 18px;
+}
+#Account{
+    font-size: 18px;
+}
+#Account:hover{
+    transform:scale(1.2,1.2);
+    background-color: #ff347f;
+    border-radius: 10px;
+}
+#home:hover{
+    transform:scale(1.2,1.2);
+    background-color: #ff347f;
+    border-radius: 10px;
+}
+#link1{
+    text-decoration: none;
+    color: inherit;
+}
+
+h3{
+    text-align: center;
+}
+#prev{
+    background-color: #000; 
+    filter: invert(1);
+}
+#next{
+    background-color: #000; 
+    filter: invert(1);
+}
+.fire{
+    color:#ff347f ;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: bold;
+}
+#main_card{
+    margin: 20px;
+    box-shadow: 0 0 5px #ff347f;
+}
+.safety{
+    color:#2772db ;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: bold;
+}
+.instruc{
+    color: #ff347f;
+}
+.ved{
+    color: #2772db;
+}
+#img-m{
+    height: 415px;
+}
+#card11{
+    margin: 20px;
+} 
+#card1:hover{
+    box-shadow: 0 0 5px black;
+}

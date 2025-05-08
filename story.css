@@ -1,0 +1,39 @@
+body {
+    background: radial-gradient(circle at 8.3% 75.7%, rgb(209, 247, 241) 0%, rgb(249, 213, 213) 81%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Logo{
+    width: 70px;
+    margin-right: 10px;
+}
+.header{
+    background-color:#d59bf6;
+}
+.heading{
+    font-size:40px;
+    font-family: cursive;
+    color: #ff347f;
+}
+.heading2{
+    font-size:40px;
+    font-family: "Cedarville Cursive", cursive;
+    color: #2772db;
+}
+#home{
+    font-size: 18px;
+}
+#Account{
+    font-size: 18px;
+}
+#Account:hover{
+    transform:scale(1.2,1.2);
+    background-color: #ff347f;
+    border-radius: 10px;
+}
+#home:hover{
+    transform:scale(1.2,1.2);
+    background-color: #ff347f;
+    border-radius: 10px;
+}

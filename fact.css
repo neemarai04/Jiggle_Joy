@@ -1,0 +1,79 @@
+body{
+    background-color: #c9d6ff;
+    background:linear-gradient(to right, #fb96bb,#9ec3f7);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.back{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: solid #ff347f 2px;
+  }
+  
+.container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.fact-box {
+    background-color: #e3f2fd;
+    border: 2px solid #90caf9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease;
+}
+
+#science-fact {
+    font-size: 1.2rem;
+    color: #0d47a1;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#generate-btn{
+    background-color:#2772db;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generate-btn:hover {
+    background-color: #1565c0;
+}
